@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PILLAR PENE — Pillar Chase Event</title>
+<link rel="stylesheet" href="css/styles.css">
+<script defer src="js/data.js"></script><script defer src="js/app.js"></script>
+</head>
+<body>
+<nav class="nav"><div class="nav-inner">
+  <a class="brand" href="index.html"><div class="brand-mark">PC</div><div><div class="brand-title" data-event-title>PILLAR PENE</div><div class="brand-sub">PILLAR CHASE EVENT</div></div></a>
+  <div class="nav-links"><a class="active" href="index.html">Inicio</a><a href="event.html">Cómo funciona</a><a href="leaderboard.html">Leaderboard</a></div>
+</div></nav>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <div class="eyebrow"><span class="dot"></span><span id="event-status">PRÓXIMAMENTE</span></div>
+    <div class="title-note" id="event-title-status">WORKING TITLE</div>
+    <h1><span id="event-title">PILLAR PENE</span></h1>
+    <p class="hero-kicker" id="event-subtitle">COMMUNITY PILLAR CHASE EVENT</p>
+    <p class="lead" id="event-description">Un evento comunitario de varios días en el que cada partida cuenta.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="leaderboard.html">Ver leaderboard ↗</a>
+      <a class="btn btn-ghost" href="event.html">Cómo funciona</a>
+      <a class="btn btn-ghost" id="roblox-link" target="_blank" rel="noopener">Abrir juego en Roblox ↗</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="stat-value" id="event-date">FECHA POR DECIDIR</div><div class="stat-label">Inicio del evento</div></div>
+      <div class="stat"><div class="stat-value" id="event-duration">VARIOS DÍAS</div><div class="stat-label">Duración</div></div>
+      <div class="stat"><div class="stat-value" id="event-prize">10 €</div><div class="stat-label">Premio</div></div>
+      <div class="stat"><div class="stat-value" id="event-location">Pillar Chase</div><div class="stat-label">Juego</div></div>
+    </div>
+  </div>
+  <div class="hero-art hero-placeholder">
+    <div class="image-placeholder"><span>IMAGEN PRINCIPAL</span><small>Aquí irá el artwork / captura definitiva del evento</small></div>
+    <div class="hero-art-content"><div class="hero-art-kicker">Pillar Chase</div><div class="hero-art-title">SURVIVE THE CHASE.</div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-head"><div><h2>El evento, en pocas palabras.</h2><p>La idea es sencilla: jugar partidas durante varios días y convertir cada resultado en puntos para la clasificación general.</p></div></div>
+  <div class="grid-3">
+    <div class="card accent-card"><div class="card-label">01 · OBJETIVO</div><h3>Juega. Sobrevive. Suma.</h3><p>Cada partida puede cambiar la clasificación. Los puntos se acumulan hasta que termine el evento.</p></div>
+    <div class="card accent-card"><div class="card-label">02 · PUNTOS</div><h3>Dos formas de puntuar</h3><p>El monstruo puntúa al eliminar a todos. Los humanos que sobreviven también puntúan. Un humano que muere no recibe puntos.</p></div>
+    <div class="card accent-card"><div class="card-label">03 · PREMIO</div><h3>10 € para el ganador</h3><p>La persona que termine primera en la clasificación final recibirá un premio de 10 €.</p></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="host-feature">
+    <div class="host-feature-main">
+      <div class="card-label">HOST DEL EVENTO</div>
+      <div class="host-identity">
+        <div class="host-avatar">O9</div>
+        <div>
+          <div class="host-kicker">EL CANAL QUE HACE POSIBLE EL EVENTO</div>
+          <h2>elOCTO2009</h2>
+          <p>El evento nace como celebración por alcanzar los <strong>500 seguidores</strong>. Sigue a elOCTO2009 en Twitch y acompaña las partidas.</p>
+        </div>
+      </div>
+      <a id="host-link" class="btn btn-primary" href="https://www.twitch.tv/elocto2009" target="_blank" rel="noopener">Ver canal en Twitch ↗</a>
+    </div>
+    <div class="milestone-card">
+      <div class="card-label">META DEL EVENTO</div>
+      <div class="milestone-top"><div><span class="milestone-current" id="followers-current">ACTUALIZANDO</span><small> seguidores</small></div><strong>500</strong></div>
+      <div class="follower-bar" aria-label="Progreso hacia 500 seguidores"><span id="follower-progress" style="width:0%"></span></div>
+      <div class="milestone-meta"><span>0</span><span id="followers-percent">0%</span><span>500</span></div>
+      <p>El evento se celebra para marcar la llegada a los 500 followers del canal.</p>
+    </div>
+  </div>
+
+  <div class="organizers-strip">
+    <div class="organizers-heading">
+      <div class="card-label">ORGANIZADORES</div>
+      <h3>Detrás del evento</h3>
+    </div>
+    <div class="organizer-grid" id="organizer-list">
+      <div class="person"><div class="avatar">AL</div><div><strong>alvarichi</strong><small>Organizador</small></div></div>
+      <div class="person"><div class="avatar">EO</div><div><strong>elOCTO2009</strong><small>Organizador</small></div></div>
+      <div class="person"><div class="avatar">RA</div><div><strong>Randincity</strong><small>Organizador</small></div></div>
+      <div class="person"><div class="avatar">TE</div><div><strong>Tecfrog</strong><small>Organizador</small></div></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-head"><div><h2>Una competición de varios días.</h2><p>No habrá un número fijo de rondas. Se jugarán tantas partidas como entren en cada jornada y los puntos se conservarán durante todo el evento.</p></div></div>
+  <div class="event-flow">
+    <div class="flow-item"><span>DAY 01</span><strong>Empieza la carrera</strong><p>Los jugadores empiezan a acumular puntos.</p></div>
+    <div class="flow-line"></div>
+    <div class="flow-item"><span>DAY 02+</span><strong>La clasificación cambia</strong><p>Cada nueva partida puede mover posiciones.</p></div>
+    <div class="flow-line"></div>
+    <div class="flow-item"><span>FINAL</span><strong>Se cierra el ranking</strong><p>La persona con más puntos gana el premio.</p></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-head"><div><h2>La imagen definitiva vendrá después.</h2><p>Hemos dejado estas zonas preparadas para sustituirlas por vuestro banner, capturas y artwork cuando estén terminados.</p></div></div>
+  <div class="gallery-placeholder">
+    <div class="image-placeholder large"><span>BANNER / KEY ART</span><small>Espacio para la imagen principal del evento</small></div>
+    <div class="image-placeholder"><span>CAPTURA 01</span><small>Pillar Chase</small></div>
+    <div class="image-placeholder"><span>CAPTURA 02</span><small>Pillar Chase</small></div>
+  </div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span>© <span data-event-title>PILLAR PENE</span> · Community event</span><span>Pillar Chase · Roblox</span></div></footer>
+
+</body></html>

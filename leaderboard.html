@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leaderboard — PILLAR PENE</title><link rel="stylesheet" href="css/styles.css">
+<script defer src="js/data.js"></script><script defer src="js/app.js"></script><script defer src="js/leaderboard.js"></script>
+</head><body>
+<nav class="nav"><div class="nav-inner"><a class="brand" href="index.html"><div class="brand-mark">PC</div><div><div class="brand-title" data-event-title>PILLAR PENE</div><div class="brand-sub">PILLAR CHASE EVENT</div></div></a><div class="nav-links"><a href="index.html">Inicio</a><a href="event.html">Cómo funciona</a><a class="active" href="leaderboard.html">Leaderboard</a></div></div></nav>
+<main><section class="page-hero"><div class="container"><div class="eyebrow"><span class="dot"></span> CLASIFICACIÓN DEL EVENTO</div><h1>¿Quién va en cabeza?</h1><p class="lead">La clasificación acumulada del evento. La estructura está preparada para conectar los datos reales que ya tenéis preparados.</p></div></section>
+<section class="section" style="padding-top:22px"><div class="container"><div class="podium" id="podium"></div><div class="table-shell"><div class="toolbar"><div class="toolbar-main"><div class="search"><input class="input" id="player-search" placeholder="Buscar jugador o usuario…"></div><select class="select" id="status-filter"><option>ALL</option><option>LIVE</option><option>DONE</option><option>PENDING</option></select></div><div class="toolbar-status" style="display:flex;align-items:center;gap:10px;color:#8c8f99;font-size:.72rem"><span id="player-count">0 jugadores</span><span>·</span><span id="updated">Actualizado —</span></div></div><div class="table-wrap"><table><thead><tr><th>Player</th><th>Progress</th><th>Rounds</th><th>Wins</th><th>Status</th></tr></thead><tbody id="leaderboard-body"></tbody></table></div></div></div></section>
+</main><footer class="footer"><div class="container footer-inner"><span>© <span data-event-title>PILLAR PENE</span> · Leaderboard</span><span>Datos oficiales del evento</span></div></footer>
+</body></html>
